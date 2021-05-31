@@ -1,2 +1,2 @@
 # Restona
-A University Resturant Management App
+A University Restaurant Management App
