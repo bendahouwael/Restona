@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoneyActivity"
+    android:orientation="vertical"
+    android:background="@drawable/chouf">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your restona coins are"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="35dp"
+        android:textColor="#ffffff">
+    </TextView>
+    <TextView
+        android:id="@+id/solde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="0"
+        android:textSize="100dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffff">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="For more restona coins scan code :"
+        android:textSize="25dp"
+        android:textColor="#ffffff">
+    </TextView>
+
+    <Button
+        android:id="@+id/scaan"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="-10dp"
+        android:text="scan code"
+        android:textSize="30dp" />
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/scaani"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/good"
+        android:layout_marginTop="0dp">
+    </androidx.constraintlayout.utils.widget.ImageFilterView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

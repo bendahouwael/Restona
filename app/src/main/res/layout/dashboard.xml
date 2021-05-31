@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/chouf"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="387dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Welcome Dear Students and teachers"
+        android:textColor="#ffffff"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/food"
+            android:layout_width="151dp"
+            android:layout_height="140dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="155dp"
+                android:layout_height="140dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="104dp"
+                    android:background="@drawable/cercle1"
+                    android:padding="1dp"
+                    android:src="@drawable/food" />
+
+                <View
+                    android:layout_width="111dp"
+                    android:layout_height="4dp"
+                    android:layout_margin="1dp"
+                    android:background="@color/orange" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="70dp"
+                android:text="       Check the menu"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/stars"
+            android:layout_width="151dp"
+            android:layout_height="140dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="155dp"
+                android:layout_height="140dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="104dp"
+                    android:background="@drawable/cercle3"
+                    android:padding="1dp"
+                    android:src="@drawable/star" />
+
+                <View
+                    android:layout_width="111dp"
+                    android:layout_height="4dp"
+                    android:layout_margin="1dp"
+                    android:background="#870127" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="70dp"
+                android:text="             Rate Food"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ticket"
+            android:layout_width="151dp"
+            android:layout_height="140dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="155dp"
+                android:layout_height="140dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="104dp"
+                    android:background="@drawable/cercle2"
+                    android:padding="1dp"
+                    android:src="@drawable/ticket" />
+
+                <View
+                    android:layout_width="111dp"
+                    android:layout_height="4dp"
+                    android:layout_margin="1dp"
+                    android:background="@color/teal_700" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="70dp"
+                android:text="       Reserve a ticket"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/money"
+            android:layout_width="151dp"
+            android:layout_height="140dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="155dp"
+                android:layout_height="140dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="104dp"
+                    android:layout_height="104dp"
+                    android:background="@drawable/cercle4"
+                    android:padding="1dp"
+                    android:src="@drawable/money" />
+
+                <View
+                    android:layout_width="111dp"
+                    android:layout_height="4dp"
+                    android:layout_margin="1dp"
+                    android:background="@color/purple_200" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="313dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="70dp"
+                android:text="    Check Resto money"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/rect1"
+            android:text="Logout"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="541dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "859604644207",
+    "project_id": "restona-2d920",
+    "storage_bucket": "restona-2d920.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859604644207:android:0372cc3b5cd63be29f389a",
+        "android_client_info": {
+          "package_name": "com.example.restona"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859604644207-k9gn38cnfoo0uneqbk0la3d0rkn5umlp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC7MXikAjaV3QQMwgpprBmaTIwA8bqwU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859604644207-k9gn38cnfoo0uneqbk0la3d0rkn5umlp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
