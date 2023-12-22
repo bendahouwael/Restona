@@ -46,7 +46,7 @@ The University Restaurant Management Application is designed to streamline resta
 
 **Open the project in Android Studio:**
    ```bash
-   git clone https://github.com/yourusername/restaurant-management-app.git
+   git clone https://github.com/yourusername/restaurant-management-app.git```
 
 ## Connect to Firebase
 
