@@ -77,4 +77,4 @@ Check out the [YouTube video](https://www.youtube.com/watch?v=JoepajIt898) demon
 
 ## Contributing
 
-Contributions to the project are welcome! If you find any issues or have enhancements to suggest, please open an issue or create a pull request.
+Contributions to the project are welcome! If you find any issues or have enhancements to suggest, please open an issue or create a pull request and thank you :D !
